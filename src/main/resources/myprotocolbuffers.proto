@@ -1,0 +1,7 @@
+option java_package = "com.mammothdatallc.proto";
+
+option java_outer_classname = "MyProtocolBuffers";
+
+message MyProtocolBuffer {
+    optional string greeting = 1;
+}
